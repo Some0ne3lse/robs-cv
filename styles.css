@@ -4,6 +4,9 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -47,8 +50,17 @@ h2 {
 
 img {
   border: 10px solid #9FB3C8;
+  width: 150px;
+  height: auto;
+  aspect-ratio: auto;
   margin: 15px 5px 15px 30px;
 
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .about,
@@ -71,7 +83,7 @@ img {
 }
 
 .red {
-  color: white;
+  color: #FFFFFF;
   background-color: #A61B1B;
 }
 
@@ -87,4 +99,47 @@ thead {
 
 td {
   border-bottom: 1px solid #9FB3C8;
+}
+
+.both-quotes {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  font-size: x-large;
+  padding-left: 30px;
+}
+
+.first-quote {
+  border-left: solid 10px #DA4A91;
+  padding-left: 10px;
+}
+
+.second-quote {
+  border-right: solid 10px #DA4A91;
+  padding-right: 10px;
+  text-align: end;
+}
+
+.links {
+  font-size: x-large;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-name {
+  margin: -13px;
+  font-size: 35px;
+  font-weight: 900;
+  color: #F0F4F8;
+}
+
+.footer-box {
+  margin: 0;
+  width: 100vw;
+  height: 100px;
+  background-color: #F0F4F8;
 }

@@ -38,10 +38,31 @@ h1 {
   font-weight: 700;
 }
 
-.content {
+img {
+  border: 10px solid #9FB3C8;
+  margin: 15px 5px 15px 30px;
+
+}
+
+.about,
+.experience,
+.education,
+.family,
+.quotes,
+.social-media {
   padding: 15px 5px 15px 30px;
 }
 
-img {
-  border: 10px solid #9FB3C8;
+.about {
+  margin: 0;
+  border-bottom: 1px solid #102A43;
+}
+
+.yellow {
+  background-color: #F7D070;
+}
+
+.red {
+  color: white;
+  background-color: #A61B1B;
 }
